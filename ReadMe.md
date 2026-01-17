@@ -1,0 +1,1 @@
+The purpose of this project is to understand how neural nets fundamentally work under the hood.
