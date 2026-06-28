@@ -128,6 +128,7 @@ class GPTLanguageModel(nn.Module):
             Block(n_embd, n_head = 4),
             Block(n_embd, n_head = 4)
         )
+        self.ln_f = nn.LayerNorm(n_embd)
         self.lm_head = nn.Linear(n_embd, vocab_size)
 
 
